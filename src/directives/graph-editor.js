@@ -32,7 +32,11 @@ define(function () {
                 if (attrs.editorServiceName) {
                     scope.editorServiceName = attrs.editorServiceName;
                 }
-
+                
+                if (attrs.runtimeServiceName) {
+                    scope.runtimeServiceName = attrs.runtimeServiceName;
+                }
+                
                 if (attrs.paletteSize) {
                     scope.flo.paletteSize = Number(attrs.paletteSize);
                 }
